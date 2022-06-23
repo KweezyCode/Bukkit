@@ -72,6 +72,8 @@ public final class Bukkit {
         return server.getName();
     }
 
+    public static String getAuthServer() { return server.getAuthServer(); }
+
     /**
      * @see Server#getVersion()
      */

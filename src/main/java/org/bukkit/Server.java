@@ -78,6 +78,8 @@ public interface Server extends PluginMessageRecipient {
      */
     public Player[] getOnlinePlayers();
 
+    public String getAuthServer();
+
     /**
      * Get the maximum amount of players which can login to this server
      *
